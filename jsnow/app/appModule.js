@@ -1,1 +1,1 @@
-﻿angular.module('jsnow', ['rspMenu']);
+﻿angular.module('jsnow', ['rspMenu', 'ngRoute']);

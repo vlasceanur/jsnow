@@ -19,9 +19,10 @@
     <script src="Scripts/angular-route.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     
-
+    <!--Application-->
     <script src="app/appModule.js"></script>
     <script src="app/appController.js"></script>
+    <script src="app/appRouting.js"></script>
 
     <!--Header-->
     <script src="app/header/jnHeadeDirective.js"></script>
@@ -37,11 +38,15 @@
     <jn-header logo-url="/images/jnHeaderLogo.png" title="Learn AngularJS"></jn-header>
     <div class="menu-container">
         <rsp-menu>
-            <rsp-menu-item icon="fa-database" label="Item 1" route="item1"></rsp-menu-item>
-            <rsp-menu-item icon="fa-fighter-jet" label="Item 2" route="item2"></rsp-menu-item>
-            <rsp-menu-item icon="fa-external-link" label="Item 3" route="item3"></rsp-menu-item>
-            <rsp-menu-item icon="fa-anchor" label="Item 4" route="item4"></rsp-menu-item>
+            <rsp-menu-item icon="fa-database" label="Item 1" route="/item1"></rsp-menu-item>
+            <rsp-menu-item icon="fa-fighter-jet" label="Item 2" route="/item2"></rsp-menu-item>
+            <rsp-menu-item icon="fa-external-link" label="Item 3" route="/item3"></rsp-menu-item>
+            <rsp-menu-item icon="fa-anchor" label="Item 4" route="/item4"></rsp-menu-item>
         </rsp-menu>
-    </div>        
+    </div>   
+    <div class="content-area">
+        <div ng-view></div> 
+    </div>
+        
 </body>
 </html>

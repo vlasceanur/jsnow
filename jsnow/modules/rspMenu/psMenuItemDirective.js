@@ -8,7 +8,7 @@
             },
             require: '^rspMenu',
             templateUrl: '/modules/rspMenu/rspMenuItemTemplate.html',
-            link: function(scope, ele, attr, ctrl){
+            link: function (scope, ele, attr, ctrl) {               
                 scope.menuItemClicked = function () {
                     ctrl.selectItem(ele);
                     $rootScope.$broadcast('rsp-menu-item-clicked', {element: ele, route: scope.route})
