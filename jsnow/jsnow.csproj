@@ -66,13 +66,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\appController.js" />
+    <Content Include="app\appRouting.js" />
     <Content Include="app\header\jnHeadeDirective.js" />
     <Content Include="app\header\jnHeaderStyle.css" />
     <Content Include="app\header\jnHeaderTemplate.html" />
     <Content Include="Content\appStyle.css" />
     <Content Include="images\jnHeaderLogo.png" />
     <Content Include="images\jnHeaderTitleBg.png" />
+    <Content Include="modules\divDrag\divDragDirective.js" />
+    <Content Include="modules\divDrag\divDragModule.js" />
+    <Content Include="modules\divToggle\divToggleButtonTemplate.html" />
+    <Content Include="modules\divToggle\divToggleDirective.js" />
+    <Content Include="modules\divToggle\divToggleModule.js" />
+    <Content Include="modules\divToggle\divToggleStyle.css" />
+    <Content Include="modules\divToggle\divToggleTemplate.html" />
+    <Content Include="modules\rspMenu\psMenuItemDirective.js" />
+    <Content Include="modules\rspMenu\rspMenuController.js" />
     <Content Include="modules\rspMenu\rspMenuDirective.js" />
+    <Content Include="modules\rspMenu\rspMenuItemTemplate.html" />
     <Content Include="modules\rspMenu\rspMenuModule.js" />
     <Content Include="modules\rspMenu\rspMenuStyle.css" />
     <Content Include="modules\rspMenu\rspMenuTemplate.html" />
@@ -897,6 +909,8 @@
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="views\toggle.html" />
+    <Content Include="views\widgets.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\version.json" />
   </ItemGroup>
