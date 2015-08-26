@@ -1,0 +1,45 @@
+﻿.jn-header-area{
+   
+   height: 100px;
+   background: url('/images/jnHeaderTitleBg.png');
+}
+
+.jn-header-logo{
+    height: 80px;
+    width: 160px;    
+    background-size: contain !important;
+    display: inline-block;
+    float: left;
+    margin: -2px;
+    box-shadow: white 0px 0px 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.jn-header-title h1{
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+    color:white;
+    cursor: default;
+    -moz-user-select: none;    
+    -webkit-user-select: none;    
+    -ms-user-select: none;
+    user-select: none;
+           
+}
+.jn-header-title{
+    text-align:center;
+    height: 100%;   
+}
+
+@media screen and (max-width: 700px){
+    .jn-header-title{
+        display: none;
+    }
+    .jn-header-logo{
+        float: none;
+    }
+    .jn-header-area{
+        text-align: center;
+    }
+}

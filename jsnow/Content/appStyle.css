@@ -1,0 +1,9 @@
+﻿.container-fluid{
+    padding: 0;
+}
+.menu-container{
+    position:absolute;
+    height:100vh;
+    padding-top: 100px;
+    top:0;
+}

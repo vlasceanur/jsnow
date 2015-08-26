@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html ng-app="jsnow" ng-controller="ApplicationCtrl">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/appStyle.css" rel="stylesheet" />
+
+    <!-- Header -->
+    <link href="app/header/jnHeaderStyle.css" rel="stylesheet" />
+
+    <!--rspMenu-->
+    <link href="modules/rspMenu/rspMenuStyle.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    
+
+    <script src="app/appModule.js"></script>
+    <script src="app/appController.js"></script>
+
+    <!--Header-->
+    <script src="app/header/jnHeadeDirective.js"></script>
+
+    <!--rspMenu-->
+    <script src="modules/rspMenu/rspMenuModule.js"></script>
+    <script src="modules/rspMenu/rspMenuDirective.js"></script>
+    <script src="modules/rspMenu/psMenuItemDirective.js"></script>
+    <script src="modules/rspMenu/rspMenuController.js"></script>
+
+</head>
+<body class="container-fluid">
+    <jn-header logo-url="/images/jnHeaderLogo.png" title="Learn AngularJS"></jn-header>
+    <div class="menu-container">
+        <rsp-menu>
+            <rsp-menu-item icon="fa-database" label="Item 1" route="item1"></rsp-menu-item>
+            <rsp-menu-item icon="fa-fighter-jet" label="Item 2" route="item2"></rsp-menu-item>
+            <rsp-menu-item icon="fa-external-link" label="Item 3" route="item3"></rsp-menu-item>
+            <rsp-menu-item icon="fa-anchor" label="Item 4" route="item4"></rsp-menu-item>
+        </rsp-menu>
+    </div>        
+</body>
+</html>

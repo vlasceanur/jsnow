@@ -1,0 +1,38 @@
+﻿.rsp-menu-area{
+    width:200px;
+    background: #225422;
+    height:100%;
+}
+.rsp-menu-item-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.rsp-menu-item{
+    height:40px;
+    line-height: 40px;
+    font-size: 1.5em;
+    color: white;
+    box-shadow: white 0px 0px 1px inset;
+    
+    -moz-user-select: none;    
+    -webkit-user-select: none;    
+    -ms-user-select: none;
+    user-select: none
+}
+.rsp-menu-item:hover{
+    box-shadow: green 0 0 10px inset;
+    background-color: darkgreen;
+    cursor: pointer;
+    
+}
+.rsp-menu-item-selected{
+     box-shadow: green 0 0 10px inset;
+    background-color: #002800;
+    cursor: pointer;
+}
+.rsp-menu-item i.fa{
+    padding: 0 20px;
+    width: 50px;
+    color:white;    
+}
