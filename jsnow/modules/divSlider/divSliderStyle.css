@@ -1,0 +1,22 @@
+﻿.div-slider-container {
+    padding: 10px 0px;
+    width: 100%;    
+}
+
+.div-slider-background {
+    height: 5px;
+    background: red;
+    border-radius: 10px;
+}
+
+.div-slider-pointer {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: yellow;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 -13px;
+}

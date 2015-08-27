@@ -76,6 +76,10 @@
     <Content Include="images\jnHeaderTitleBg.png" />
     <Content Include="modules\divDrag\divDragDirective.js" />
     <Content Include="modules\divDrag\divDragModule.js" />
+    <Content Include="modules\divSlider\divSliderDirective.js" />
+    <Content Include="modules\divSlider\divSliderModule.js" />
+    <Content Include="modules\divSlider\divSliderStyle.css" />
+    <Content Include="modules\divSlider\divSliderTemplate.html" />
     <Content Include="modules\divToggle\divToggleButtonTemplate.html" />
     <Content Include="modules\divToggle\divToggleDirective.js" />
     <Content Include="modules\divToggle\divToggleModule.js" />
@@ -88,6 +92,8 @@
     <Content Include="modules\rspMenu\rspMenuModule.js" />
     <Content Include="modules\rspMenu\rspMenuStyle.css" />
     <Content Include="modules\rspMenu\rspMenuTemplate.html" />
+    <Content Include="modules\small-iscroll\iscroll-probe.js" />
+    <Content Include="modules\small-iscroll\small-iscroll.js" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Web.Debug.config">
@@ -909,6 +915,8 @@
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="views\scroll.html" />
+    <Content Include="views\slider.html" />
     <Content Include="views\toggle.html" />
     <Content Include="views\widgets.html" />
     <Content Include="Web.config" />

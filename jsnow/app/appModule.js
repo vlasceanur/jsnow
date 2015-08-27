@@ -1,1 +1,1 @@
-﻿angular.module('jsnow', ['rspMenu', 'ngRoute', 'divToggle', 'divDrag']);
+﻿angular.module('jsnow', ['rspMenu', 'ngRoute', 'divToggle', 'divDrag', 'small.iscroll', 'divSlider']);

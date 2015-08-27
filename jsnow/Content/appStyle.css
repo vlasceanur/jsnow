@@ -1,4 +1,8 @@
-﻿.container-fluid {
+﻿body{
+    overflow:hidden;
+}
+
+.container-fluid {
     padding: 0;
 }
 
@@ -52,4 +56,17 @@
     -webkit-user-select: none;    
     -ms-user-select: none;
     user-select: none;
+}
+.scroll-container{
+    width:200px;
+    height:150px;
+    box-shadow: black 0 0 10px;
+}
+.slider-container{
+    width: 400px;
+    height: 400px;
+    box-shadow: black 0 0 10px;
+    top: 50px;
+    left: 50px;
+    position: relative;
 }

@@ -16,6 +16,9 @@
     <!--toggle-->
     <link href="modules/divToggle/divToggleStyle.css" rel="stylesheet" />
 
+    <!--slider-->
+    <link href="modules/divSlider/divSliderStyle.css" rel="stylesheet" />
+
     <script src="Scripts/jquery-2.1.4.js"></script>
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/angular-animate.min.js"></script>
@@ -44,14 +47,22 @@
     <script src="modules/divDrag/divDragModule.js"></script>
     <script src="modules/divDrag/divDragDirective.js"></script>
 
+    <!--scroll-->
+    <script src="modules/small-iscroll/iscroll-probe.js"></script>
+    <script src="modules/small-iscroll/small-iscroll.js"></script>
+
+    <!--slider-->
+    <script src="modules/divSlider/divSliderModule.js"></script>
+    <script src="modules/divSlider/divSliderDirective.js"></script>
+
 
 </head>
 <body class="container-fluid">
     <jn-header logo-url="/images/jnHeaderLogo.png" title="Learn AngularJS"></jn-header>
     <div class="menu-container">
         <rsp-menu>
-            <rsp-menu-item icon="fa-sliders" label="Sliders" route="/item1"></rsp-menu-item>
-            <rsp-menu-item icon="fa-clock-o" label="Timer" route="/item2"></rsp-menu-item>
+            <rsp-menu-item icon="fa-sliders" label="Sliders" route="/slider"></rsp-menu-item>
+            <rsp-menu-item icon="fa-arrows-v" label="Scroll" route="/scroll"></rsp-menu-item>
             <rsp-menu-item icon="fa-th-large" label="Widgets" route="/widgets"></rsp-menu-item>
             <rsp-menu-item icon="fa-angle-double-down" label="Toggable" route="/toggle"></rsp-menu-item>
         </rsp-menu>
